@@ -38,6 +38,8 @@ The site is then deployed to [Vercel](http://vercel.com).
 
 **All config is defined in [site.config.js](./site.config.js).**
 
+This was pushed using node v18.12.1 and npm 8.19.2
+
 1. Fork / clone this repo
 2. Change a few values in [site.config.js](./site.config.js)
 3. `npm install` or `npm i --legacy-peer-deps`
