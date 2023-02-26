@@ -40,7 +40,7 @@ The site is then deployed to [Vercel](http://vercel.com).
 
 1. Fork / clone this repo
 2. Change a few values in [site.config.js](./site.config.js)
-3. `npm install`
+3. `npm install` or `npm i --legacy-peer-deps`
 4. `npm run dev` to test locally
 5. `npm run deploy` to deploy to vercel 💪
 
