@@ -38,7 +38,9 @@ The site is then deployed to [Vercel](http://vercel.com).
 
 **All config is defined in [site.config.js](./site.config.js).**
 
-This was pushed using node v18.12.1 and npm 8.19.2
+<hr>
+
+# its imp to use node 16.16.0 with npm 8.11.0
 
 1. Fork / clone this repo
 2. Change a few values in [site.config.js](./site.config.js)
@@ -48,7 +50,7 @@ This was pushed using node v18.12.1 and npm 8.19.2
 
 I tried to make configuration as easy as possible.
 
-All you really need to do to get started is edit `rootNotionPageId`. It defaults to rendering my site's public notion page [78fc5a4b88d74b0e824e29407e9f1ec1](https://notion.so/78fc5a4b88d74b0e824e29407e9f1ec1).
+All you really need to do to get started is edit `rootNotionPageId`.
 
 You'll want to make your root Notion page **public** and then copy the link to your clipboard. Then extract the last part of the URL that looks like `d1b5dcf8b9ff425b8aef5ce6f0730202`, which is your page's Notion iD.
 
